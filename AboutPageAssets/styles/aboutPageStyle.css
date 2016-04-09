@@ -1,10 +1,18 @@
 @charset "utf-8";
 /* Global Styles */
 
-#grabber1{
-	width: 50px;
+.input-group{
+	margin-left:270px;
+	margin-right: 270px;
 	
 	}
+
+
+.form-control{
+	width: 10px;
+	}
+
+
 
 .jumbotronwithfile
 {
@@ -55,7 +63,15 @@
 
 	
 			}
+	.explanation3{
+	height: 50px;
+	text-align: center;
+	font-size: 25px;
+	background-color: black;
+	color: white;
+	padding: 10px;
 	
+	}
 	.explanation1
 {
 	height: 150px;
