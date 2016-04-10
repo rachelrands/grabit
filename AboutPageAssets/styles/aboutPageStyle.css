@@ -1,5 +1,15 @@
 @charset "utf-8";
 /* Global Styles */
+
+body{
+	margin-top: 70px;
+	margin-bottom: 50px;
+	}
+
+head{
+	margin-top: 20px;
+	}
+
 #banner2 {
 	width: 100%;
 	display: block;
@@ -146,8 +156,9 @@
 
 	}
 
-#jumbotron{
-	background-color:tan;
+.jumbotron{
+	margin-top: 40px;
+	background-color:#ded7e7;
 	height:500px;
 	width: 100%;
 	}
@@ -163,6 +174,9 @@ body {
 	padding-left: 2.275%;
 	padding-right: 2.275%;
 	background-color:black;
+	padding-top: 2.3%;
+	padding-bottom: 2.3%;
+	
 }
 /* Header */
 header {
