@@ -1,0 +1,22 @@
+{
+  "name": "grabit",
+  "version": "1.0.0",
+  "description": "Geofencing image sharing",
+  "main": "maps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachelrands/grabit.git"
+  },
+  "author": "Luis Hernandez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rachelrands/grabit/issues"
+  },
+  "homepage": "https://github.com/rachelrands/grabit#readme",
+  "dependencies": {
+    "gmaps": "^0.4.24"
+  }
+}
