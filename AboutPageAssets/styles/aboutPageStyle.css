@@ -1,9 +1,19 @@
 @charset "utf-8";
 /* Global Styles */
 
+p{
+	 font-size: 115%;
+	
+	}
+
+#upload{
+	margin-left: 100px;
+	}
+
 body{
 	margin-top: 70px;
 	margin-bottom: 50px;
+
 	}
 
 head{
@@ -139,9 +149,8 @@ head{
 	margin-left: 21%;
 	margin-right: 50%;
 	margin-bottom: 60px;
-	margin-top: 50px;
 	backgound-color: #f2e2cd;
-	
+	font-height: 40px;
 
 	}
 
@@ -155,7 +164,9 @@ head{
 	
 
 	}
-
+body{
+	background-color: black;
+	}
 .jumbotron{
 	margin-top: 40px;
 	background-color:#ded7e7;

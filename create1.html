@@ -1,6 +1,9 @@
 <!doctype html>
 <html>
 <head>
+<div id="banner">
+	<img id="banner2" src="GRABBIT.jpg" alt="Banner Image"/>
+</div>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,34 +19,54 @@
 <body>
 <!-- Header content -->
 <header>
-  <div class="profileLogo"> 
-    <!-- Profile logo. Add a img tag in place of <span>. -->
-    <p class="logoPlaceholder"><!-- <img src="logoImage.png" alt="sample logo"> --><span>LOGO</span></p>
-  </div>
+ 
 <!-- body details -->
-  <section class="profileHeader">
+  
     <div class="container-fluid"></div>
    
-   <div>
-     <p class="explanation1">Enter a uniuque (but simple) password that you will share with your group to access the files you wish to share.<br>
-<br>
-Then, upload a file.  </p>
-   </div>
    
-    <div class="jumbotron">
-      
-      <form> 
+       
+   
+    
+ <form> 
      <div id="name" class="input-group input-group-lg">
     
- 
+ <p><strong>Step 1.</strong> Enter a uniuque (but simple) password that you will share with your group to access the files you wish to share.</p>
   <input id="passwordid" type="text" class="form-control" placeholder="Choose a password for your file" aria-describedby="sizing-addon1">
+  
+   <div class="btn-group" role="group">
+   
+   
+   <br>
+       <p><strong> Step 2: </strong> Enter the distance you prefer your file to be reached to. See home page for examples.
+       Then, upload a file. </p>
+       <br/>
+    <div id="distance">
+    	<form>
+    		<select name="distance" ng-model="distance" style="background-color:white" >
+    			<option value="0"> Select one</option>
+    			<option value="1"> Share with my tabe (10 feet)</option>
+    			<option value="2"> Share with my room (500 feet)</option>
+    			<option value="3"> Share with my city (50 mile Radius)</option>
+    			<option value="4"> Share with my state (500 mile Radius</option>
+    		</select>
+    	</form>
+    </div>
   
    <div class="btn-group" role="group">
    
    <br/>
    <div>
-   <input id="upload" type="file" name="file name"/>
+   <br/>
+          <p><strong> Step 3: </strong> Choose a file to share. Upload it, and share your password with those who you want to share with. </p>
+          <br/>
+          
+
+   <input id="upload" type="file" name="file name" align="middle"/>
    </div>
+   <br/>
+   <br/>
+   <br/>
 
 
    </div>
@@ -52,19 +75,14 @@ Then, upload a file.  </p>
     <div>
     <button id="submit" type="button" class="btn btn-default">Submit</button>
     </div>
-    </form>
     </div>
-<hr>
+    </form>
+    
+    
 
-</section>
 
-  </header>
 
-<section class="mainContent"> 
-  </section>
-<footer>
-  <hr>
-</footer>
+
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.js"></script>
 </body>
