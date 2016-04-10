@@ -1,5 +1,33 @@
 @charset "utf-8";
 /* Global Styles */
+#banner2 {
+	width: 100%;
+	display: block;
+}
+#banner{
+	  
+      top: -5px;
+                left: 0px;
+                right: 0px;
+                width: 900px;
+                height: 90px;
+                z-index: 1;
+				align:center;
+				margin-top: 40px;
+				margin-bottom: 50px;
+				float:right;
+				margin-left: 40px;
+	}
+
+
+#test{
+	margin-top: 10px;
+	backgorund-color:red;
+	height: 60px;
+	width: 906px;
+	z-index:1;
+	
+	}
 
 .input-group{
 	margin-left:270px;
