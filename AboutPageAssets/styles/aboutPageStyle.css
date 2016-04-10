@@ -1,6 +1,25 @@
 @charset "utf-8";
 /* Global Styles */
 
+#access {
+	height: 200px;
+	background-color: 
+	
+	}
+
+#buttonAccess{
+	margin-bottom: 10%;
+	margin-top: 50px;
+	
+	}
+
+.form-control{
+	margin-bottom: 10%;
+	margin-top: 50px;
+	
+	
+	}
+
 p{
 	 font-size: 115%;
 	
@@ -58,6 +77,7 @@ head{
 
 .form-control{
 	width: 10px;
+	margin-bottom: 50px;
 	}
 
 
@@ -139,6 +159,7 @@ head{
 	background-color: black;
 	color: white;
 	padding: 10px;
+	font-size: 20px;
 	
 	}
 
@@ -221,7 +242,6 @@ header .logoPlaceholder span {
 	float: left;
 	clear: both;
 }
-
 
 
 .mainContent {
